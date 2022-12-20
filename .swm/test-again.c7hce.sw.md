@@ -50,7 +50,7 @@ Let's try changing a comment
 ```python
 🟩 1      # Sarah Engel
 🟩 2      # February 20th, 2018
-🟩 3      # Professor We-Changed-The-Code!!
+🟩 3      # Professor Broder
 🟩 4      # Data Structures
 ⬜ 5      
 ⬜ 6      class Node(object):
@@ -58,6 +58,8 @@ Let's try changing a comment
 ```
 
 <br/>
+
+Professor Who Knows What
 
 <br/>
 
