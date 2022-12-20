@@ -23,12 +23,19 @@ def sample_code(test):
 ⬜ 4      # Data Structures
 ⬜ 5      
 ⬜ 6      class Node(object):
-🟩 7          """
-🟩 8          We're showing Ephraim swimm!
-🟩 9          """
-⬜ 10         
-⬜ 11         # create a linked list node consisting of a key/data pair
-⬜ 12         def __init__(self, k, d, n = None):
+🟩 7          
+🟩 8          # create a linked list node consisting of a key/data pair
+🟩 9          def __init__(self, k, d, n = None):
+🟩 10             self.__key  = k
+🟩 11             self.__data = d
+🟩 12             self.__next = n   # reference to next item in list
+🟩 13         
+🟩 14         def __str__(self):
+🟩 15             return "{" + str(self.__key) + ", " + str(self.__data) + "}"
+🟩 16         
+⬜ 17         # accessors and mutators
+⬜ 18         def getKey(self):     return self.__key
+⬜ 19         def getNext(self):    return self.__next
 ```
 
 <br/>
