@@ -4,10 +4,43 @@ name: Test again
 file_version: 1.0.2
 app_version: 0.10.4
 file_blobs:
-  Assignment.py: e059072a0db2a9fd159dd529261c980de91b5ae0
+  Assignment.py: fbc44588646c628fe2999ea8d82bf49bfac7090f
 ---
 
+# These are comments
+
+/
+
 <br/>
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 Assignment.py
+```python
+⬜ 69                 self.__tail.setNext(newNode)
+⬜ 70             
+⬜ 71             else:                                # If CLL has more than 1 item
+🟩 72                 newNode = Node(key, data, self.__tail.getNext())
+🟩 73                 self.__tail.setNext(newNode)
+🟩 74             
+🟩 75         
+🟩 76         # deletes the Node at the head of the CLL and returns a tuple containing the deleted key/data pair   
+🟩 77         def delete(self):
+🟩 78             
+🟩 79             # If the CLL has only one element 
+🟩 80             if len(self) == 1:
+🟩 81                 ans = self.__tail
+🟩 82                 self.__tail = None                # Garbage collection safe
+🟩 83                 return ans.getKeyData() 
+🟩 84             
+🟩 85             # If the CLL is empty
+🟩 86             elif self.__tail == None:
+🟩 87                 return None
+🟩 88             
+⬜ 89             # Normal case, of two or more elem in the CLL
+⬜ 90             ans = self.__tail.getNext()
+⬜ 91             self.__tail.setNext(ans.getNext())    # Setting tail's next to the one past the head we're deleting
+```
 
 <br/>
 
