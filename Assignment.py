@@ -1,6 +1,6 @@
 # Sarah Engel
 # February 20th, 2018
-# Professor Foo
+# Professor We-Changed-The-Code!
 # Data Structures
 
 class Node(object):
