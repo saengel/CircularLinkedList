@@ -1,6 +1,6 @@
 # Sarah Engel
 # February 20th, 2018
-# Professor Broder
+# Professor Foo
 # Data Structures
 
 class Node(object):
