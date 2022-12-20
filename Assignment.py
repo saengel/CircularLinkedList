@@ -4,6 +4,9 @@
 # Data Structures
 
 class Node(object):
+    """
+    We're showing Ephraim swimm!
+    """
     
     # create a linked list node consisting of a key/data pair
     def __init__(self, k, d, n = None):
